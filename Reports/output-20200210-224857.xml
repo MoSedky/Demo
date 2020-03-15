@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.1 on java1.8.0_121)" generated="20200210 22:48:57.429">
+<suite source="C:\Users\sedky\PycharmProjects\Demo\login_demo.robot" name="Login Demo" id="s1">
+<test name="Test title" id="s1-t1">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://github.com/</arg>
+<arg>Chromium</arg>
+</arguments>
+<msg level="INFO" timestamp="20200210 22:49:05.673">Opening browser 'Chromium' to base url 'https://github.com/'.</msg>
+<kw library="SeleniumLibrary" name="Capture Page Screenshot">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg level="INFO" timestamp="20200210 22:49:05.692">Cannot capture screenshot because no browser is open.</msg>
+<status endtime="20200210 22:49:05.695" starttime="20200210 22:49:05.686" status="PASS"></status>
+</kw>
+<msg level="FAIL" timestamp="20200210 22:49:05.762">ValueError: chromium is not a supported browser.</msg>
+<status endtime="20200210 22:49:05.765" starttime="20200210 22:49:05.641" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20200210 22:49:05.802" starttime="20200210 22:49:05.620" status="FAIL">ValueError: chromium is not a supported browser.</status>
+</test>
+<doc>Suite description</doc>
+<status endtime="20200210 22:49:05.957" starttime="20200210 22:48:57.470" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="Login Demo" id="s1">Login Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

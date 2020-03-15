@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.1 on java1.8.0_121)" generated="20200210 22:45:59.188">
+<suite source="C:\Users\sedky\PycharmProjects\Demo\login_demo.robot" name="Login Demo" id="s1">
+<test name="Test title" id="s1-t1">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://github.com/</arg>
+<arg>Firefox</arg>
+</arguments>
+<msg level="INFO" timestamp="20200210 22:46:05.693">Opening browser 'Firefox' to base url 'https://github.com/'.</msg>
+<status endtime="20200210 22:46:20.147" starttime="20200210 22:46:05.687" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20200210 22:46:20.157" starttime="20200210 22:46:05.670" status="PASS"></status>
+</test>
+<doc>Suite description</doc>
+<status endtime="20200210 22:46:20.184" starttime="20200210 22:45:59.247" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Login Demo" id="s1">Login Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20200210 22:46:05.633">Error in file 'C:\Users\sedky\PycharmProjects\Demo\login_demo.robot': Importing test library 'DatabaseLibrary' failed: ImportError: No module named DatabaseLibrary
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\jython2.7.1\bin\robot.exe
+  C:\jython2.7.1\Lib
+  __classpath__
+  __pyclasspath__/
+  C:\jython2.7.1\Lib\site-packages
+CLASSPATH:
+  ..\..\..\..\jython2.7.1\jython.jar
+  .</msg>
+</errors>
+</robot>

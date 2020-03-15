@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.1 on java1.8.0_121)" generated="20200210 22:24:04.996">
+<suite source="C:\Users\sedky\PycharmProjects\Demo\login_demo.robot" name="Login Demo" id="s1">
+<test name="Test title" id="s1-t1">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.google.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg level="INFO" timestamp="20200210 22:24:12.361">Opening browser 'chrome' to base url 'http://www.google.com'.</msg>
+<kw library="SeleniumLibrary" name="Capture Page Screenshot">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg level="INFO" timestamp="20200210 22:24:19.336">Cannot capture screenshot because no browser is open.</msg>
+<status endtime="20200210 22:24:19.344" starttime="20200210 22:24:19.314" status="PASS"></status>
+</kw>
+<msg level="FAIL" timestamp="20200210 22:24:19.454">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 76
+</msg>
+<status endtime="20200210 22:24:19.456" starttime="20200210 22:24:12.332" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20200210 22:24:19.467" starttime="20200210 22:24:12.313" status="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 76
+</status>
+</test>
+<doc>Suite description</doc>
+<status endtime="20200210 22:24:19.487" starttime="20200210 22:24:05.022" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="Login Demo" id="s1">Login Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20200210 22:24:12.279">Error in file 'C:\Users\sedky\PycharmProjects\Demo\login_demo.robot': Importing test library 'DatabaseLibrary' failed: ImportError: No module named DatabaseLibrary
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\jython2.7.1\bin\robot.exe
+  C:\jython2.7.1\Lib
+  __classpath__
+  __pyclasspath__/
+  C:\jython2.7.1\Lib\site-packages
+CLASSPATH:
+  ..\..\..\..\jython2.7.1\jython.jar
+  .</msg>
+</errors>
+</robot>

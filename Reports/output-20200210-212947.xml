@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.1 on win32)" generated="20200210 21:29:47.836" rpa="false">
+<suite id="s1" name="Login Demo" source="C:\Users\sedky\PycharmProjects\Demo\login_demo.robot">
+<test id="s1-t1" name="Test title">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>chrome http://www.google.com</arg>
+</arguments>
+<msg timestamp="20200210 21:29:48.121" level="INFO">Opening browser 'firefox' to base url 'chrome http://www.google.com'.</msg>
+<msg timestamp="20200210 21:29:48.137" level="INFO">Firefox driver log is always forced to to: C:\Users\sedky\PycharmProjects\Demo\geckodriver-1.log</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200210 21:29:55.960" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20200210 21:29:55.960" endtime="20200210 21:29:55.960"></status>
+</kw>
+<msg timestamp="20200210 21:29:55.975" level="FAIL">WebDriverException: Message: permission denied
+</msg>
+<status status="FAIL" starttime="20200210 21:29:48.121" endtime="20200210 21:29:55.975"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="FAIL" starttime="20200210 21:29:48.121" endtime="20200210 21:29:55.975" critical="yes">WebDriverException: Message: permission denied
+</status>
+</test>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20200210 21:29:47.836" endtime="20200210 21:29:55.991"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">DEBUG</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Login Demo">Login Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

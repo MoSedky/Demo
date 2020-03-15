@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.1 on java1.8.0_121)" generated="20200210 22:16:48.000">
+<suite source="C:\Users\sedky\PycharmProjects\Demo\login_demo.robot" name="Login Demo" id="s1">
+<test name="Test title" id="s1-t1">
+<kw library="SeleniumLibrary" name="Open Browser">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>chrome</arg>
+<arg>http://www.google.com</arg>
+</arguments>
+<msg level="INFO" timestamp="20200210 22:16:53.981">Opening browser 'http://www.google.com' to base url 'chrome'.</msg>
+<kw library="SeleniumLibrary" name="Capture Page Screenshot">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg level="INFO" timestamp="20200210 22:16:54.037">Cannot capture screenshot because no browser is open.</msg>
+<status endtime="20200210 22:16:54.039" starttime="20200210 22:16:54.035" status="PASS"></status>
+</kw>
+<msg level="FAIL" timestamp="20200210 22:16:54.076">ValueError: http://www.google.com is not a supported browser.</msg>
+<status endtime="20200210 22:16:54.079" starttime="20200210 22:16:53.976" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20200210 22:16:54.108" starttime="20200210 22:16:53.962" status="FAIL">ValueError: http://www.google.com is not a supported browser.</status>
+</test>
+<doc>Suite description</doc>
+<status endtime="20200210 22:16:54.120" starttime="20200210 22:16:48.031" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" name="Login Demo" id="s1">Login Demo</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20200210 22:16:53.940">Error in file 'C:\Users\sedky\PycharmProjects\Demo\login_demo.robot': Importing test library 'DatabaseLibrary' failed: ImportError: No module named DatabaseLibrary
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\jython2.7.1\bin\robot.exe
+  C:\jython2.7.1\Lib
+  __classpath__
+  __pyclasspath__/
+  C:\jython2.7.1\Lib\site-packages
+CLASSPATH:
+  ..\..\..\..\jython2.7.1\jython.jar
+  .</msg>
+</errors>
+</robot>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.1 on win32)" generated="20200309 21:45:23.855" rpa="false">
+<suite id="s1" name="StartAppium" source="C:\Users\sedky\PycharmProjects\Demo\Common_Keywords\StartAppium.robot">
+<test id="s1-t1" name="Prepare Appium for Cases">
+<kw name="Start Process" library="Process">
+<doc>Starts a new process on background.</doc>
+<arguments>
+<arg>appium</arg>
+</arguments>
+<msg timestamp="20200309 21:45:28.400" level="INFO">Starting process:
+appium</msg>
+<msg timestamp="20200309 21:45:28.468" level="FAIL">FileNotFoundError: [WinError 2] The system cannot find the file specified</msg>
+<status status="FAIL" starttime="20200309 21:45:28.400" endtime="20200309 21:45:28.468"></status>
+</kw>
+<status status="FAIL" starttime="20200309 21:45:28.396" endtime="20200309 21:45:28.468" critical="yes">FileNotFoundError: [WinError 2] The system cannot find the file specified</status>
+</test>
+<status status="FAIL" starttime="20200309 21:45:23.859" endtime="20200309 21:45:28.472"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="StartAppium">StartAppium</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
